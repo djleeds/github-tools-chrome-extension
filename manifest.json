@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Github Tools",
+  "version": "0.1.0",
+  "description": "Some simple tweaks to Github",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "css": ["styles.css"],
+      "js": ["jquery-2.1.1.min.js", "content-script.js"]
+    }
+  ]
+}

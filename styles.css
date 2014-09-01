@@ -1,0 +1,26 @@
+body.wide-mode-activated div.container {
+	width: 95%;
+}
+
+body.wide-mode-activated .repository-content {
+	width: 95%;
+}
+
+body .blob-code {
+	tab-size: 4;
+}
+
+body .inline-comments .comment-holder, 
+body .inline-comments .inline-comment-form, 
+body .inline-comments .inline-comment-form-container {
+	max-width: 100%;
+}
+
+body .previewable-comment-form textarea,
+body #fullscreen-contents {
+	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+body .previewable-comment-form textarea {
+		font-size: 12px;
+}
