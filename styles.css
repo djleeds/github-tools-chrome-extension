@@ -6,6 +6,10 @@ body.wide-mode-activated .repository-content {
 	width: 95%;
 }
 
+body.wide-mode-activated .discussion-timeline {
+	width: calc(100% - 16em);
+}
+
 body .blob-code {
 	tab-size: 4;
 }
@@ -22,5 +26,5 @@ body #fullscreen-contents {
 }
 
 body .previewable-comment-form textarea {
-		font-size: 12px;
+	font-size: 12px;
 }
