@@ -14,9 +14,9 @@ body .blob-code {
 	tab-size: 4;
 }
 
-body .inline-comments .comment-holder, 
-body .inline-comments .inline-comment-form, 
-body .inline-comments .inline-comment-form-container {
+body.wide-mode-activated .inline-comments .comment-holder, 
+body.wide-mode-activated .inline-comments .inline-comment-form, 
+body.wide-mode-activated .inline-comments .inline-comment-form-container {
 	max-width: 100%;
 }
 
