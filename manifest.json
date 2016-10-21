@@ -6,8 +6,15 @@
   "content_scripts": [
     {
       "matches": ["https://github.com/*"],
-      "css": ["styles.css"],
-      "js": ["jquery-2.1.1.min.js", "content-script.js"]
+      "css": [
+        "styles.css",
+        "css/pr-java.css"
+      ],
+      "js": [
+        "js/lib/jquery-2.1.1.min.js",
+        "js/content-scripts/pr-java.js",
+        "js/content-scripts/wide-mode.js"
+      ]
     }
   ]
 }

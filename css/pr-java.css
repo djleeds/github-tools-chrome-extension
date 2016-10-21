@@ -1,0 +1,22 @@
+.file-link-label {
+	color: white;
+    display: inline-block;
+    margin: 0;
+    padding: 1px 5px;
+    border-radius: 3px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+
+.untested {
+	background: #d26911;
+}
+
+.test-file-link {
+	background: #55a532;
+}
+
+.main-file-link {
+	background: #4078c0;
+}
