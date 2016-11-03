@@ -7,7 +7,7 @@ $(document).ready(function() {
         return str.indexOf(ending, str.length - ending.length) !== -1;
     }
 
-    var $files = $("div.file-info span.user-select-contain");
+    var $files = $("div.file-info a");
 
     console.log($files);
 
@@ -40,9 +40,9 @@ $(document).ready(function() {
         console.log(id);
 
         if(id === undefined) {
-            $e.append("<span class='file-link-label untested'>No Test</span>");
+            $("<span class='file-link-label untested'>No Test</span>").insertAfter($e);
         } else {
-            $e.append("<a class='file-link-label test-file-link' href='#" + id + "'>Test</a>");
+            $("<a class='file-link-label test-file-link' href='#" + id + "'>Test</a>").insertAfter($e);
         }
     });
 
@@ -70,7 +70,7 @@ $(document).ready(function() {
 
     //document.getElementById(id).scrollIntoView();
 
-    
+
 
 //<a name="diff-369a5f76f4651baa8657a3e649f7e58d"></a>
 
